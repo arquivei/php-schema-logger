@@ -1,0 +1,21 @@
+{
+    "name": "rafapg/schema-logger",
+    "description": "Builds a logging lib to enforce schema",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Pereira Girolineto",
+            "email": "rafael.girolineto@arquivei.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nette/php-generator": "~3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SchemaLogger\\Builder\\": "src/"
+        }
+    }
+}
